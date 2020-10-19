@@ -49,6 +49,7 @@ const TaskSearchBar = ({setTasks}) => {
                className="TaskSearchBar__input"
                value={inputValue}
                type="text"
+               autoFocus="true"
                placeholder="قم بإضافة مهمه..."
                onChange={updateInputValue}
                onKeyDown={onKeyDown} />

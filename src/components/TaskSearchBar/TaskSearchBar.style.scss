@@ -47,6 +47,7 @@
     padding: 0 calc(var(--default-padding) * 1.5);
     transition: background-color var(--timing-animation);
 
+    &:focus,
     &:hover {
       background-color: #099df8;
     }
